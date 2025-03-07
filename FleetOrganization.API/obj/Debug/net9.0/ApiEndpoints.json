@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "FleetOrganization.API.Controllers.UsersController",
+    "Method": "Create",
+    "RelativePath": "Users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestUser",
+        "Type": "FleetOrganiztion.COMMUNICATION.Requests.RequestUserJson",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "uyCdxULlZ/bmKQZpnqEweJuC7v7FYuHUBskwxzZxqgk=",
+  "Source": "FleetOrganization.API",
+  "BasePath": "_content/FleetOrganization.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

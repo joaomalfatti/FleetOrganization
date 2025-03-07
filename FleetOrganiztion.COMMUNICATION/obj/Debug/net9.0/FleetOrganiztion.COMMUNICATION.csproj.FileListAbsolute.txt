@@ -1,0 +1,12 @@
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganiztion.COMMUNICATION\bin\Debug\net9.0\FleetOrganiztion.COMMUNICATION.deps.json
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganiztion.COMMUNICATION\bin\Debug\net9.0\FleetOrganiztion.COMMUNICATION.dll
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganiztion.COMMUNICATION\bin\Debug\net9.0\FleetOrganiztion.COMMUNICATION.pdb
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganiztion.COMMUNICATION\obj\Debug\net9.0\FleetOrganiztion.COMMUNICATION.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganiztion.COMMUNICATION\obj\Debug\net9.0\FleetOrganiztion.COMMUNICATION.AssemblyInfoInputs.cache
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganiztion.COMMUNICATION\obj\Debug\net9.0\FleetOrganiztion.COMMUNICATION.AssemblyInfo.cs
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganiztion.COMMUNICATION\obj\Debug\net9.0\FleetOrganiztion.COMMUNICATION.csproj.CoreCompileInputs.cache
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganiztion.COMMUNICATION\obj\Debug\net9.0\FleetOrganiztion.COMMUNICATION.sourcelink.json
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganiztion.COMMUNICATION\obj\Debug\net9.0\FleetOrganiztion.COMMUNICATION.dll
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganiztion.COMMUNICATION\obj\Debug\net9.0\refint\FleetOrganiztion.COMMUNICATION.dll
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganiztion.COMMUNICATION\obj\Debug\net9.0\FleetOrganiztion.COMMUNICATION.pdb
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganiztion.COMMUNICATION\obj\Debug\net9.0\ref\FleetOrganiztion.COMMUNICATION.dll
