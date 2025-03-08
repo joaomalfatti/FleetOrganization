@@ -38,3 +38,6 @@ C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.API\obj\D
 C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.API\bin\Debug\net9.0\FleetOrganiztion.COMMUNICATION.dll
 C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.API\bin\Debug\net9.0\FleetOrganiztion.COMMUNICATION.pdb
 C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.API\obj\Debug\net9.0\FleetOrganization.API.sourcelink.json
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.API\bin\Debug\net9.0\FluentValidation.dll
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.API\bin\Debug\net9.0\FleetOrganization.USECASES.dll
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.API\bin\Debug\net9.0\FleetOrganization.USECASES.pdb

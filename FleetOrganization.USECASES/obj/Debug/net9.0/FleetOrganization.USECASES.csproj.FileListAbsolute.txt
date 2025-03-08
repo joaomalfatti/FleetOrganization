@@ -1,0 +1,16 @@
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.USECASES\bin\Debug\net9.0\FleetOrganization.USECASES.deps.json
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.USECASES\bin\Debug\net9.0\FleetOrganization.USECASES.dll
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.USECASES\bin\Debug\net9.0\FleetOrganization.USECASES.pdb
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.USECASES\bin\Debug\net9.0\FleetOrganiztion.COMMUNICATION.dll
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.USECASES\bin\Debug\net9.0\FleetOrganiztion.COMMUNICATION.pdb
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.USECASES\obj\Debug\net9.0\FleetOrganization.USECASES.csproj.AssemblyReference.cache
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.USECASES\obj\Debug\net9.0\FleetOrganization.USECASES.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.USECASES\obj\Debug\net9.0\FleetOrganization.USECASES.AssemblyInfoInputs.cache
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.USECASES\obj\Debug\net9.0\FleetOrganization.USECASES.AssemblyInfo.cs
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.USECASES\obj\Debug\net9.0\FleetOrganization.USECASES.csproj.CoreCompileInputs.cache
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.USECASES\obj\Debug\net9.0\FleetOrganization.USECASES.sourcelink.json
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.USECASES\obj\Debug\net9.0\FleetOrg.352B5E1A.Up2Date
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.USECASES\obj\Debug\net9.0\FleetOrganization.USECASES.dll
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.USECASES\obj\Debug\net9.0\refint\FleetOrganization.USECASES.dll
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.USECASES\obj\Debug\net9.0\FleetOrganization.USECASES.pdb
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.USECASES\obj\Debug\net9.0\ref\FleetOrganization.USECASES.dll

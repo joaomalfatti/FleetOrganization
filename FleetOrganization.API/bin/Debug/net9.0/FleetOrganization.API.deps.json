@@ -8,12 +8,22 @@
     ".NETCoreApp,Version=v9.0": {
       "FleetOrganization.API/1.0.0": {
         "dependencies": {
+          "FleetOrganization.USECASES": "1.0.0",
           "FleetOrganiztion.COMMUNICATION": "1.0.0",
+          "FluentValidation": "11.11.0",
           "Microsoft.AspNetCore.OpenApi": "9.0.2",
           "Swashbuckle.AspNetCore": "7.3.1"
         },
         "runtime": {
           "FleetOrganization.API.dll": {}
+        }
+      },
+      "FluentValidation/11.11.0": {
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.11.0.0"
+          }
         }
       },
       "Microsoft.AspNetCore.OpenApi/9.0.2": {
@@ -74,6 +84,18 @@
           }
         }
       },
+      "FleetOrganization.USECASES/1.0.0": {
+        "dependencies": {
+          "FleetOrganiztion.COMMUNICATION": "1.0.0",
+          "FluentValidation": "11.11.0"
+        },
+        "runtime": {
+          "FleetOrganization.USECASES.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "FleetOrganiztion.COMMUNICATION/1.0.0": {
         "runtime": {
           "FleetOrganiztion.COMMUNICATION.dll": {
@@ -89,6 +111,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FluentValidation/11.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cyIVdQBwSipxWG8MA3Rqox7iNbUNUTK5bfJi9tIdm4CAfH71Oo5ABLP4/QyrUwuakqpUEPGtE43BDddvEehuYw==",
+      "path": "fluentvalidation/11.11.0",
+      "hashPath": "fluentvalidation.11.11.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.OpenApi/9.0.2": {
       "type": "package",
@@ -138,6 +167,11 @@
       "sha512": "sha512-hs6C+lmNEzipOA1WPQpIaGvvoXjUbnoevbv6l7o9ZQE8SNF8ggjOmK6NB6cYdMcEvk0uBeKl4Qq/BnRt5MFVqg==",
       "path": "swashbuckle.aspnetcore.swaggerui/7.3.1",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.7.3.1.nupkg.sha512"
+    },
+    "FleetOrganization.USECASES/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "FleetOrganiztion.COMMUNICATION/1.0.0": {
       "type": "project",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FleetOrganiztion.COMMUNICATION")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7f96d6f1edecdb38ebd13392f0540a0589e8ba9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9f5a44bbdedeae94f6c8ddc0f89ef427edfda86")]
 [assembly: System.Reflection.AssemblyProductAttribute("FleetOrganiztion.COMMUNICATION")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FleetOrganiztion.COMMUNICATION")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
