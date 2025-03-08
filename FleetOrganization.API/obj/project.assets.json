@@ -124,10 +124,21 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "FleetOrganization.EXCEPTION/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/FleetOrganization.EXCEPTION.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FleetOrganization.EXCEPTION.dll": {}
+        }
+      },
       "FleetOrganization.USECASES/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
+          "FleetOrganization.EXCEPTION": "1.0.0",
           "FleetOrganiztion.COMMUNICATION": "1.0.0",
           "FluentValidation": "11.11.0"
         },
@@ -524,6 +535,11 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
+    "FleetOrganization.EXCEPTION/1.0.0": {
+      "type": "project",
+      "path": "../FleetOrganization.EXCEPTION/FleetOrganization.EXCEPTION.csproj",
+      "msbuildProject": "../FleetOrganization.EXCEPTION/FleetOrganization.EXCEPTION.csproj"
+    },
     "FleetOrganization.USECASES/1.0.0": {
       "type": "project",
       "path": "../FleetOrganization.USECASES/FleetOrganization.USECASES.csproj",
@@ -537,6 +553,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "FleetOrganization.EXCEPTION >= 1.0.0",
       "FleetOrganization.USECASES >= 1.0.0",
       "FleetOrganiztion.COMMUNICATION >= 1.0.0",
       "FluentValidation >= 11.11.0",
@@ -577,6 +594,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+            "C:\\Users\\joaom\\Documents\\trabalhos\\FleetOrganization\\FleetOrganization.EXCEPTION\\FleetOrganization.EXCEPTION.csproj": {
+              "projectPath": "C:\\Users\\joaom\\Documents\\trabalhos\\FleetOrganization\\FleetOrganization.EXCEPTION\\FleetOrganization.EXCEPTION.csproj"
+            },
             "C:\\Users\\joaom\\Documents\\trabalhos\\FleetOrganization\\FleetOrganization.USECASES\\FleetOrganization.USECASES.csproj": {
               "projectPath": "C:\\Users\\joaom\\Documents\\trabalhos\\FleetOrganization\\FleetOrganization.USECASES\\FleetOrganization.USECASES.csproj"
             },

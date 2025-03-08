@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FleetOrganization.USECASES")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9f5a44bbdedeae94f6c8ddc0f89ef427edfda86")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9158a78ace8b549fb9b392788baeded880e6926")]
 [assembly: System.Reflection.AssemblyProductAttribute("FleetOrganization.USECASES")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FleetOrganization.USECASES")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

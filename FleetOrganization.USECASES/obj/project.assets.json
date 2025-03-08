@@ -15,6 +15,16 @@
           }
         }
       },
+      "FleetOrganization.EXCEPTION/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/FleetOrganization.EXCEPTION.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FleetOrganization.EXCEPTION.dll": {}
+        }
+      },
       "FleetOrganiztion.COMMUNICATION/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -53,6 +63,11 @@
         "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
+    "FleetOrganization.EXCEPTION/1.0.0": {
+      "type": "project",
+      "path": "../FleetOrganization.EXCEPTION/FleetOrganization.EXCEPTION.csproj",
+      "msbuildProject": "../FleetOrganization.EXCEPTION/FleetOrganization.EXCEPTION.csproj"
+    },
     "FleetOrganiztion.COMMUNICATION/1.0.0": {
       "type": "project",
       "path": "../FleetOrganiztion.COMMUNICATION/FleetOrganiztion.COMMUNICATION.csproj",
@@ -61,6 +76,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "FleetOrganization.EXCEPTION >= 1.0.0",
       "FleetOrganiztion.COMMUNICATION >= 1.0.0",
       "FluentValidation >= 11.11.0"
     ]
@@ -98,6 +114,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+            "C:\\Users\\joaom\\Documents\\trabalhos\\FleetOrganization\\FleetOrganization.EXCEPTION\\FleetOrganization.EXCEPTION.csproj": {
+              "projectPath": "C:\\Users\\joaom\\Documents\\trabalhos\\FleetOrganization\\FleetOrganization.EXCEPTION\\FleetOrganization.EXCEPTION.csproj"
+            },
             "C:\\Users\\joaom\\Documents\\trabalhos\\FleetOrganization\\FleetOrganiztion.COMMUNICATION\\FleetOrganiztion.COMMUNICATION.csproj": {
               "projectPath": "C:\\Users\\joaom\\Documents\\trabalhos\\FleetOrganization\\FleetOrganiztion.COMMUNICATION\\FleetOrganiztion.COMMUNICATION.csproj"
             }

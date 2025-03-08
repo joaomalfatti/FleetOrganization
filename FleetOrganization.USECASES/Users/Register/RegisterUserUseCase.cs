@@ -1,4 +1,5 @@
-﻿using FleetOrganiztion.COMMUNICATION.Requests;
+﻿using FleetOrganization.EXCEPTION;
+using FleetOrganiztion.COMMUNICATION.Requests;
 using FleetOrganiztion.COMMUNICATION.Responses;
 
 namespace FleetOrganization.USECASES.Users.Register;
@@ -33,6 +34,9 @@ public class RegisterUserUseCase
         {
             //Neste caso aqui, vai pegar todas as mensagens de erros que retornar caso não é válido.
             var errorMessages = result.Errors.Select(error => error.ErrorMessage).ToList();
+
+            //Aqui vai devolver a API uma exceção de erro.
+            throw new ErrorOnValidationException();
         }
     }
 }

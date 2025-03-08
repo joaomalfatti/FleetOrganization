@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FleetOrganization.EXCEPTION\FleetOrganization.EXCEPTION.csproj" />
     <ProjectReference Include="..\FleetOrganiztion.COMMUNICATION\FleetOrganiztion.COMMUNICATION.csproj" />
   </ItemGroup>
 
