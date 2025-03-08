@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FleetOrganization.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0274e98ed8f9a3d895508e87e37f1dfa63208970")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7f96d6f1edecdb38ebd13392f0540a0589e8ba9")]
 [assembly: System.Reflection.AssemblyProductAttribute("FleetOrganization.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FleetOrganization.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
