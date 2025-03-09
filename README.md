@@ -15,7 +15,7 @@ O objetivo do projeto é facilitar o controle de veículos, condutores e demais 
 - ⏳ Futuras implementações...
 
 ## 📂 Estrutura do Projeto
-![Image](https://github.com/user-attachments/assets/16edf668-eaf6-4e42-91cf-3556d3e3aa59)
+![Image](https://github.com/user-attachments/assets/e7772643-deac-4b43-980e-d6897caca402)
 
 ## 📌 Contribuição
 Fique à vontade para contribuir com o projeto! Qualquer sugestão ou melhoria são bem-vindas.
