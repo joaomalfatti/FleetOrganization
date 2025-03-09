@@ -14,3 +14,9 @@ C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.USECASES\
 C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.USECASES\obj\Debug\net9.0\refint\FleetOrganization.USECASES.dll
 C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.USECASES\obj\Debug\net9.0\FleetOrganization.USECASES.pdb
 C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.USECASES\obj\Debug\net9.0\ref\FleetOrganization.USECASES.dll
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.USECASES\bin\Debug\net9.0\FleetOrganization.EXCEPTION.dll
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.USECASES\bin\Debug\net9.0\FleetOrganization.EXCEPTION.pdb
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.USECASES\bin\Debug\net9.0\FleetOrganization.DOMAIN.dll
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.USECASES\bin\Debug\net9.0\FleetOrganization.INFRAESTRUCTURE.dll
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.USECASES\bin\Debug\net9.0\FleetOrganization.DOMAIN.pdb
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.USECASES\bin\Debug\net9.0\FleetOrganization.INFRAESTRUCTURE.pdb

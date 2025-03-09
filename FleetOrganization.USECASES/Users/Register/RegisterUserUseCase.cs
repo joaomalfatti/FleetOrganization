@@ -1,4 +1,6 @@
-﻿using FleetOrganization.EXCEPTION;
+﻿using FleetOrganization.DOMAIN.Entities;
+using FleetOrganization.EXCEPTION;
+using FleetOrganization.INFRAESTRUCTURE.Context;
 using FleetOrganiztion.COMMUNICATION.Requests;
 using FleetOrganiztion.COMMUNICATION.Responses;
 
@@ -14,9 +16,24 @@ public class RegisterUserUseCase
         //chamando a função validate
         Validate(requestUser);
 
+        //criando uma ententidade
+        var entity = new EntitiesUser
+        {
+            Name = requestUser.Name,
+            Email = requestUser.Email,
+            Password = requestUser.Password,
+            TypeUser = requestUser.TypeUser
+        };
+
+        var dbContext = new FleetOrganizationDbContext();
+
+        dbContext.tb_users.Add(entity);
+
+        dbContext.SaveChanges();
+
         return new ResponseRegisteredUserJsoncs
         {
-
+            Name = entity.Name,
         };
     }
 
@@ -36,7 +53,7 @@ public class RegisterUserUseCase
             var errorMessages = result.Errors.Select(error => error.ErrorMessage).ToList();
 
             //Aqui vai devolver a API uma exceção de erro.
-            throw new ErrorOnValidationException();
+            throw new ErrorOnValidationException(errorMessages);
         }
     }
 }

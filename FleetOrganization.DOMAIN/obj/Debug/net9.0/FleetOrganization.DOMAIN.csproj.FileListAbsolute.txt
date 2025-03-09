@@ -1,0 +1,12 @@
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.DOMAIN\bin\Debug\net9.0\FleetOrganization.DOMAIN.deps.json
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.DOMAIN\bin\Debug\net9.0\FleetOrganization.DOMAIN.dll
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.DOMAIN\bin\Debug\net9.0\FleetOrganization.DOMAIN.pdb
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.DOMAIN\obj\Debug\net9.0\FleetOrganization.DOMAIN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.DOMAIN\obj\Debug\net9.0\FleetOrganization.DOMAIN.AssemblyInfoInputs.cache
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.DOMAIN\obj\Debug\net9.0\FleetOrganization.DOMAIN.AssemblyInfo.cs
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.DOMAIN\obj\Debug\net9.0\FleetOrganization.DOMAIN.csproj.CoreCompileInputs.cache
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.DOMAIN\obj\Debug\net9.0\FleetOrganization.DOMAIN.sourcelink.json
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.DOMAIN\obj\Debug\net9.0\FleetOrganization.DOMAIN.dll
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.DOMAIN\obj\Debug\net9.0\refint\FleetOrganization.DOMAIN.dll
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.DOMAIN\obj\Debug\net9.0\FleetOrganization.DOMAIN.pdb
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.DOMAIN\obj\Debug\net9.0\ref\FleetOrganization.DOMAIN.dll

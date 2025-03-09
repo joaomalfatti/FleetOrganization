@@ -1,0 +1,12 @@
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.EXCEPTION\bin\Debug\net9.0\FleetOrganization.EXCEPTION.deps.json
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.EXCEPTION\bin\Debug\net9.0\FleetOrganization.EXCEPTION.dll
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.EXCEPTION\bin\Debug\net9.0\FleetOrganization.EXCEPTION.pdb
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.EXCEPTION\obj\Debug\net9.0\FleetOrganization.EXCEPTION.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.EXCEPTION\obj\Debug\net9.0\FleetOrganization.EXCEPTION.AssemblyInfoInputs.cache
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.EXCEPTION\obj\Debug\net9.0\FleetOrganization.EXCEPTION.AssemblyInfo.cs
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.EXCEPTION\obj\Debug\net9.0\FleetOrganization.EXCEPTION.csproj.CoreCompileInputs.cache
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.EXCEPTION\obj\Debug\net9.0\FleetOrganization.EXCEPTION.sourcelink.json
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.EXCEPTION\obj\Debug\net9.0\FleetOrganization.EXCEPTION.dll
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.EXCEPTION\obj\Debug\net9.0\refint\FleetOrganization.EXCEPTION.dll
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.EXCEPTION\obj\Debug\net9.0\FleetOrganization.EXCEPTION.pdb
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.EXCEPTION\obj\Debug\net9.0\ref\FleetOrganization.EXCEPTION.dll

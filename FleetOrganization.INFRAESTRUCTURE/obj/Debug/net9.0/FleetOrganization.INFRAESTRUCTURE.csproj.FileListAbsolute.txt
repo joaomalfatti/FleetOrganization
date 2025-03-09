@@ -1,0 +1,16 @@
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.INFRAESTRUCTURE\bin\Debug\net9.0\FleetOrganization.INFRAESTRUCTURE.deps.json
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.INFRAESTRUCTURE\bin\Debug\net9.0\FleetOrganization.INFRAESTRUCTURE.dll
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.INFRAESTRUCTURE\bin\Debug\net9.0\FleetOrganization.INFRAESTRUCTURE.pdb
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.INFRAESTRUCTURE\obj\Debug\net9.0\FleetOrganization.INFRAESTRUCTURE.csproj.AssemblyReference.cache
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.INFRAESTRUCTURE\obj\Debug\net9.0\FleetOrganization.INFRAESTRUCTURE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.INFRAESTRUCTURE\obj\Debug\net9.0\FleetOrganization.INFRAESTRUCTURE.AssemblyInfoInputs.cache
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.INFRAESTRUCTURE\obj\Debug\net9.0\FleetOrganization.INFRAESTRUCTURE.AssemblyInfo.cs
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.INFRAESTRUCTURE\obj\Debug\net9.0\FleetOrganization.INFRAESTRUCTURE.csproj.CoreCompileInputs.cache
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.INFRAESTRUCTURE\obj\Debug\net9.0\FleetOrganization.INFRAESTRUCTURE.sourcelink.json
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.INFRAESTRUCTURE\obj\Debug\net9.0\FleetOrganization.INFRAESTRUCTURE.dll
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.INFRAESTRUCTURE\obj\Debug\net9.0\refint\FleetOrganization.INFRAESTRUCTURE.dll
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.INFRAESTRUCTURE\obj\Debug\net9.0\FleetOrganization.INFRAESTRUCTURE.pdb
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.INFRAESTRUCTURE\obj\Debug\net9.0\ref\FleetOrganization.INFRAESTRUCTURE.dll
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.INFRAESTRUCTURE\bin\Debug\net9.0\FleetOrganization.DOMAIN.dll
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.INFRAESTRUCTURE\bin\Debug\net9.0\FleetOrganization.DOMAIN.pdb
+C:\Users\joaom\Documents\trabalhos\FleetOrganization\FleetOrganization.INFRAESTRUCTURE\obj\Debug\net9.0\FleetOrg.21D533E6.Up2Date
