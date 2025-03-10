@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FleetOrganization.DOMAIN\FleetOrganization.DOMAIN.csproj" />
+    <ProjectReference Include="..\FleetOrganization.EXCEPTION\FleetOrganization.EXCEPTION.csproj" />
+    <ProjectReference Include="..\FleetOrganization.INFRAESTRUCTURE\FleetOrganization.INFRAESTRUCTURE.csproj" />
+    <ProjectReference Include="..\FleetOrganization.USECASES\FleetOrganization.USECASES.csproj" />
+    <ProjectReference Include="..\FleetOrganiztion.COMMUNICATION\FleetOrganiztion.COMMUNICATION.csproj" />
+  </ItemGroup>
+
+</Project>

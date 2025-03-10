@@ -1,0 +1,67 @@
+.vs/
+# Pastas de build e publicação
+bin/
+obj/
+out/
+Debug/
+Release/
+TestResults/
+
+# Dependências do NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.assets.json
+
+# Configurações do usuário
+*.user
+*.suo
+*.vs/
+.vscode/
+*.sln.cache
+*.sln.ide
+
+# Arquivos de logs e temporários
+*.log
+logs/
+*.tmp
+*.temp
+*.cache
+*.pid
+*.swp
+*.swo
+
+# Configurações de IDEs
+.idea/
+*.csproj.user
+*.csproj.vspscc
+*.csproj.DotSettings
+*.dbmdl
+*.pdb
+*.opendb
+
+# Docker e Kubernetes
+.dockerignore
+docker-compose.override.yml
+.docker-compose*
+
+# Arquivos de publish
+publish/
+wwwroot/
+app.publish/
+
+# Banco de dados local
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# Certificados
+*.pfx
+*.p12
+
+# Chaves de API e segredos
+secrets.json
+.env
+appsettings.*.json

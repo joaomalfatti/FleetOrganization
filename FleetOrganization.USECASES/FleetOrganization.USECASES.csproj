@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FleetOrganization.DOMAIN\FleetOrganization.DOMAIN.csproj" />
+    <ProjectReference Include="..\FleetOrganization.EXCEPTION\FleetOrganization.EXCEPTION.csproj" />
+    <ProjectReference Include="..\FleetOrganization.INFRAESTRUCTURE\FleetOrganization.INFRAESTRUCTURE.csproj" />
+    <ProjectReference Include="..\FleetOrganiztion.COMMUNICATION\FleetOrganiztion.COMMUNICATION.csproj" />
+  </ItemGroup>
+
+</Project>
