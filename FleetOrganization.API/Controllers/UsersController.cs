@@ -17,7 +17,8 @@ public class UsersController : ControllerBase
     [HttpPost]
     [ProducesResponseType(typeof(ResponseRegisteredUserJsoncs), StatusCodes.Status201Created)]
     [ProducesResponseType(typeof(ResponseErrorMessagesJson), StatusCodes.Status400BadRequest)]
-    public IActionResult Create(RequestUserJson requestUser)
+
+    public IActionResult Register(RequestUserJson requestUser)
     {
         //Executando algo
         try
