@@ -49,6 +49,10 @@ public class RegisterUserUseCase
         
         var result = validator.Validate(requestUser);
 
+        var existUserWithName = dbContext.tb_users.Any(user => user.Name.Equals(requestUser.Name));
+        if(existUserWithName)
+            result.Errors.Add(new ValidationFailure("Name", "Nome já cadastrado."));
+
         var existUserWithEmail = dbContext.tb_users.Any(user => user.Email.Equals(requestUser.Email));
         if (existUserWithEmail)
             result.Errors.Add(new ValidationFailure("Email", "Email já cadastrado."));
