@@ -4,6 +4,7 @@ using FleetOrganization.INFRAESTRUCTURE.DataAccess;
 using FleetOrganization.INFRAESTRUCTURE.Security.Cryptography;
 using FleetOrganiztion.COMMUNICATION.Requests;
 using FleetOrganiztion.COMMUNICATION.Responses;
+using FluentValidation.Results;
 
 namespace FleetOrganization.USECASES.Users.Register;
 
@@ -13,8 +14,9 @@ public class RegisterUserUseCase
 
     public ResponseRegisteredUserJsoncs Execute(RequestUserJson requestUser) //Aqui vamos passar o parametro que vai ser o requestUser
     {
-        
-        Validate(requestUser);
+        var dbContext = new FleetOrganizationDbContext();
+
+        Validate(requestUser, dbContext);
 
         var cryptography = new BCryptAlgorithm();
         
@@ -26,7 +28,7 @@ public class RegisterUserUseCase
             TypeUser = requestUser.TypeUser
         };
 
-        var dbContext = new FleetOrganizationDbContext();
+        
 
         dbContext.tb_users.Add(entity);
 
@@ -39,7 +41,7 @@ public class RegisterUserUseCase
     }
 
     
-    private void Validate(RequestUserJson requestUser) //Aqui vamos passar o parametro que vai ser o requestUser
+    private void Validate(RequestUserJson requestUser, FleetOrganizationDbContext dbContext) //Aqui vamos passar o parametro que vai ser o requestUser
     {
         
         var validator = new RegisterUserValidator();
@@ -47,7 +49,11 @@ public class RegisterUserUseCase
         
         var result = validator.Validate(requestUser);
 
-        
+        var existUserWithEmail = dbContext.tb_users.Any(user => user.Email.Equals(requestUser.Email));
+        if (existUserWithEmail)
+            result.Errors.Add(new ValidationFailure("Email", "Email já cadastrado."));
+
+
         if (result.IsValid == false)
         {
             //Neste caso aqui, vai pegar todas as mensagens de erros que retornar caso não é válido.
