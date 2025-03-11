@@ -17,7 +17,6 @@ public class RegisterUserUseCase
         Validate(requestUser);
 
         var cryptography = new BCryptAlgorithm();
-
         
         var entity = new EntitiesUser
         {
