@@ -1,6 +1,7 @@
 ﻿using FleetOrganization.DOMAIN.Entities;
 using FleetOrganization.EXCEPTION;
-using FleetOrganization.INFRAESTRUCTURE.Context;
+using FleetOrganization.INFRAESTRUCTURE.DataAccess;
+using FleetOrganization.INFRAESTRUCTURE.Security.Cryptography;
 using FleetOrganiztion.COMMUNICATION.Requests;
 using FleetOrganiztion.COMMUNICATION.Responses;
 
@@ -8,20 +9,21 @@ namespace FleetOrganization.USECASES.Users.Register;
 
 public class RegisterUserUseCase
 {
-    //Dentro do register user use case, vamos ter a logica de negocio para registrar um usuario.
-    //Vai retornar um ResponseRegisteredUserJson
+
 
     public ResponseRegisteredUserJsoncs Execute(RequestUserJson requestUser) //Aqui vamos passar o parametro que vai ser o requestUser
     {
-        //chamando a função validate
+        
         Validate(requestUser);
 
-        //criando uma ententidade
+        var cryptography = new BCryptAlgorithm();
+
+        
         var entity = new EntitiesUser
         {
             Name = requestUser.Name,
             Email = requestUser.Email,
-            Password = requestUser.Password,
+            Password = cryptography.HashPassword(requestUser.Password),
             TypeUser = requestUser.TypeUser
         };
 
@@ -37,16 +39,16 @@ public class RegisterUserUseCase
         };
     }
 
-    //somente essa classe vai ver
+    
     private void Validate(RequestUserJson requestUser) //Aqui vamos passar o parametro que vai ser o requestUser
     {
-        //Fazendo a instância da minha validação
-        var validor = new RegisterUserValidator();
+        
+        var validator = new RegisterUserValidator();
 
-        //agora vai trazer o resultado da validação
-        var result = validor.Validate(requestUser);
+        
+        var result = validator.Validate(requestUser);
 
-        //Se o resultado não for valido
+        
         if (result.IsValid == false)
         {
             //Neste caso aqui, vai pegar todas as mensagens de erros que retornar caso não é válido.

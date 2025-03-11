@@ -1,7 +1,7 @@
 ﻿using FleetOrganization.DOMAIN.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace FleetOrganization.INFRAESTRUCTURE.Context;
+namespace FleetOrganization.INFRAESTRUCTURE.DataAccess;
 public class FleetOrganizationDbContext : DbContext
 {
     public DbSet<EntitiesUser> tb_users { get; set; }
