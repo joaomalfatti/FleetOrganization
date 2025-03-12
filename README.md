@@ -13,7 +13,8 @@ Projeto nada mais é que pratica da tecnologia e aprender como posso utilizar em
 ## 📌 Funcionalidades (em desenvolvimento)
 - ✅ Cadastro de Usuário
   - ✅ Possui criptografia na senha para garantir maior segurança.
-  - ✅ Contém validação de e-mail para garantir que não haja duplicidade entre usuários distintos..
+  - ✅ Deve impedir o cadastro caso o e-mail informado já esteja em uso.
+  - ✅ Deve impedir o cadastro caso o nome de usuário informado já esteja em uso.
 - ⏳ Futuras implementações.
   - Cadastro da frota
   - Relatórios
