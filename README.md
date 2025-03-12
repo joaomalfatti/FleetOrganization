@@ -21,7 +21,7 @@ Projeto nada mais é que pratica da tecnologia e aprender como posso utilizar em
   - Permissões para cada usuário
   - e muito mais.. Com tempo vou planejar e aumentar o projeto.
 ## 📂 Estrutura do Projeto
-![Image](https://github.com/user-attachments/assets/e7772643-deac-4b43-980e-d6897caca402)
+![Image](https://github.com/user-attachments/assets/f1fc982d-7dad-47a0-a9c1-bd9fadfbeb63)
 
 ## 📌 Contribuição
 Fique à vontade para contribuir com o projeto! Qualquer sugestão ou melhoria são bem-vindas.
