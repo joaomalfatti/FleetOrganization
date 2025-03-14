@@ -1,10 +1,10 @@
-﻿using FleetOrganization.DOMAIN.Entities;
+﻿using FleetOrganization.API.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace FleetOrganization.INFRAESTRUCTURE.DataAccess;
+namespace FleetOrganization.API.Infraestructure.DataAccess;
 public class FleetOrganizationDbContext : DbContext
 {
-    public DbSet<EntitiesUser> tb_users { get; set; }
+    public DbSet<EntitiesDriver> tbDrivers { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

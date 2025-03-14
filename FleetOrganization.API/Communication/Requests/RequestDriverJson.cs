@@ -1,4 +1,4 @@
-﻿namespace FleetOrganiztion.COMMUNICATION.Requests;
+﻿namespace FleetOrganization.API.Communication.Requests;
 
 public class RequestDriverJson
 {

@@ -1,4 +1,4 @@
-﻿namespace FleetOrganiztion.COMMUNICATION.Responses;
+﻿namespace FleetOrganization.API.Communication.Responses;
 
 public class ResponseRegisteredDriverJsoncs
 {

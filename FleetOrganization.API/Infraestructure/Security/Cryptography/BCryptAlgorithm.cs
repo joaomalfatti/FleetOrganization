@@ -1,4 +1,4 @@
-﻿namespace FleetOrganization.INFRAESTRUCTURE.Security.Cryptography;
+﻿namespace FleetOrganization.API.Infraestructure.Security.Cryptography;
 
 
 

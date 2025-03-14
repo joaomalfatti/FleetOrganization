@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace FleetOrganization.EXCEPTION;
+namespace FleetOrganization.API.Exception;
 
 public abstract class FleetOrgazationExeception : SystemException
 {

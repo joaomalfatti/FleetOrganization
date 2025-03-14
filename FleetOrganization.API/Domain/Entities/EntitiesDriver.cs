@@ -1,6 +1,4 @@
-﻿using FleetOrganization.API.Domain.Entities;
-
-namespace FleetOrganization.DOMAIN.Entities;
+﻿namespace FleetOrganization.API.Domain.Entities;
 
 public class EntitiesDriver
 {

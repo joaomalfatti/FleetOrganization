@@ -1,6 +1,4 @@
-﻿using FleetOrganization.DOMAIN.Entities;
-
-namespace FleetOrganization.API.Domain.Entities;
+﻿namespace FleetOrganization.API.Domain.Entities;
 
 public class EntitiesTrip
 {

@@ -1,10 +1,8 @@
-﻿using FleetOrganization.EXCEPTION;
-using FleetOrganization.USECASES.Users.Register;
-using FleetOrganiztion.COMMUNICATION.Requests;
-using FleetOrganiztion.COMMUNICATION.Responses;
-using Microsoft.AspNetCore.Http.HttpResults;
+﻿using FleetOrganization.API.Communication.Requests;
+using FleetOrganization.API.Communication.Responses;
+using FleetOrganization.API.Exception;
+using FleetOrganization.API.UseCases.Driver.Register;
 using Microsoft.AspNetCore.Mvc;
-using System;
 
 namespace FleetOrganization.API.Controllers;
 

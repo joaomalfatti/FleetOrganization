@@ -1,12 +1,12 @@
-﻿using FleetOrganization.DOMAIN.Entities;
+﻿using FleetOrganization.API.Communication.Requests;
+using FleetOrganization.API.Communication.Responses;
+using FleetOrganization.API.Domain.Entities;
+using FleetOrganization.API.Infraestructure.DataAccess;
 using FleetOrganization.EXCEPTION;
-using FleetOrganization.INFRAESTRUCTURE.DataAccess;
 using FleetOrganization.INFRAESTRUCTURE.Security.Cryptography;
-using FleetOrganiztion.COMMUNICATION.Requests;
-using FleetOrganiztion.COMMUNICATION.Responses;
 using FluentValidation.Results;
 
-namespace FleetOrganization.USECASES.Users.Register;
+namespace FleetOrganization.API.UseCases.Driver.Register;
 
 public class RegisterDriverUseCase
 {
@@ -34,7 +34,7 @@ public class RegisterDriverUseCase
 
         
 
-        dbContext.tb_users.Add(entity);
+        dbContext.tbDrivers.Add(entity);
 
         dbContext.SaveChanges();
 
@@ -54,11 +54,11 @@ public class RegisterDriverUseCase
         
         var result = validator.Validate(requestUser);
 
-        var existUserWithName = dbContext.tb_users.Any(user => user.Name.Equals(requestUser.Name));
+        var existUserWithName = dbContext.tbDrivers.Any(user => user.Name.Equals(requestUser.Name));
         if(existUserWithName)
             result.Errors.Add(new ValidationFailure("Name", "Nome já cadastrado."));
 
-        var existUserWithEmail = dbContext.tb_users.Any(user => user.Email.Equals(requestUser.Email));
+        var existUserWithEmail = dbContext.tbDrivers.Any(user => user.Email.Equals(requestUser.Email));
         if (existUserWithEmail)
             result.Errors.Add(new ValidationFailure("Email", "Email já cadastrado."));
 

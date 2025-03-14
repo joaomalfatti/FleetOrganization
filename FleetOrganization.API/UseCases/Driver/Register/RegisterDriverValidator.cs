@@ -1,7 +1,7 @@
-﻿using FleetOrganiztion.COMMUNICATION.Requests;
+﻿using FleetOrganization.API.Communication.Requests;
 using FluentValidation;
 
-namespace FleetOrganization.USECASES.Users.Register;
+namespace FleetOrganization.API.UseCases.Driver.Register;
 
 public class RegisterDriverValidator : AbstractValidator<RequestDriverJson>
 {
