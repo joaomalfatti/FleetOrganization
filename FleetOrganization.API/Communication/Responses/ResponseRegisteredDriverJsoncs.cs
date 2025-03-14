@@ -1,6 +1,6 @@
 ﻿namespace FleetOrganiztion.COMMUNICATION.Responses;
 
-public class ResponseRegisteredUserJsoncs
+public class ResponseRegisteredDriverJsoncs
 {
     //Aqui vamos devolver a resposta para client.
 

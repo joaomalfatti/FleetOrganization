@@ -11,20 +11,20 @@ namespace FleetOrganization.API.Controllers;
 [Route("[controller]")]
 [ApiController]
 
-public class UsersController : ControllerBase
+public class DriverController : ControllerBase
 {
     //endpoint
     [HttpPost]
-    [ProducesResponseType(typeof(ResponseRegisteredUserJsoncs), StatusCodes.Status201Created)]
+    [ProducesResponseType(typeof(ResponseRegisteredDriverJsoncs), StatusCodes.Status201Created)]
     [ProducesResponseType(typeof(ResponseErrorMessagesJson), StatusCodes.Status400BadRequest)]
 
-    public IActionResult Register(RequestUserJson requestUser)
+    public IActionResult Register(RequestDriverJson requestUser)
     {
         //Executando algo
         try
         {
             //Variavel para armazenar a resposta e simplificar usando VAR
-            var useCase = new RegisterUserUseCase();
+            var useCase = new RegisterDriverUseCase();
 
             //Aqui vamos chamar o metodo execute do use case
             var response = useCase.Execute(requestUser);

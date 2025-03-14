@@ -8,24 +8,28 @@ using FluentValidation.Results;
 
 namespace FleetOrganization.USECASES.Users.Register;
 
-public class RegisterUserUseCase
+public class RegisterDriverUseCase
 {
 
 
-    public ResponseRegisteredUserJsoncs Execute(RequestUserJson requestUser) //Aqui vamos passar o parametro que vai ser o requestUser
+    public ResponseRegisteredDriverJsoncs Execute(RequestDriverJson requestDriver) //Aqui vamos passar o parametro que vai ser o requestUser
     {
         var dbContext = new FleetOrganizationDbContext();
 
-        Validate(requestUser, dbContext);
+        Validate(requestDriver, dbContext);
 
         var cryptography = new BCryptAlgorithm();
         
-        var entity = new EntitiesUser
+        var entity = new EntitiesDriver
         {
-            Name = requestUser.Name,
-            Email = requestUser.Email,
-            Password = cryptography.HashPassword(requestUser.Password),
-            TypeUser = requestUser.TypeUser
+            Name = requestDriver.Name,
+            CNH = requestDriver.CNH,
+            Category = requestDriver.Category,
+            Telephone = requestDriver.Telephone,
+            Disponibility = requestDriver.Disponibility,
+            Email = requestDriver.Email,
+            Password = cryptography.HashPassword(requestDriver.Password),
+            
         };
 
         
@@ -34,17 +38,18 @@ public class RegisterUserUseCase
 
         dbContext.SaveChanges();
 
-        return new ResponseRegisteredUserJsoncs
+        return new ResponseRegisteredDriverJsoncs
         {
             Name = entity.Name,
+            AccessToken = "token"
         };
     }
 
     
-    private void Validate(RequestUserJson requestUser, FleetOrganizationDbContext dbContext) //Aqui vamos passar o parametro que vai ser o requestUser
+    private void Validate(RequestDriverJson requestUser, FleetOrganizationDbContext dbContext) //Aqui vamos passar o parametro que vai ser o requestUser
     {
         
-        var validator = new RegisterUserValidator();
+        var validator = new RegisterDriverValidator();
 
         
         var result = validator.Validate(requestUser);
